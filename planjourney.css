@@ -1,0 +1,35 @@
+.cpj1{
+    flex: 50%;
+    background-color: azure;
+    font-family: Arial;
+    font-size: 40px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.cpj2{
+    flex: 50%;
+    background-color: blanchedalmond;
+    font-family: Arial;
+    font-size: 40px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.at{
+    color: lightyellow;
+    font-size: 50px;
+    position: absolute;
+    font-weight: bold;
+    font-family: Arial;
+    width: 50%;
+    text-align: center;
+}
+.rt{
+    display: flex;
+    margin: auto;
+}
+h2{
+    font-family: Arial;
+    color: teal;
+}
