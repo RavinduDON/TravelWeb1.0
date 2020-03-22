@@ -8,6 +8,7 @@
     padding-left: 40px;
     font-family: Arial;
     font-size: 18px;
+    flex: 50%;
 }
 .input {
     width: 25%;
@@ -35,3 +36,16 @@ select{
     font-size: 18px;
 
 }
+.crow{
+   display: flex;
+}
+.col1{
+    flex: 50%;
+    border-radius: 20px;
+}
+.col2{
+    flex: 50%;
+    border-radius: 20px;
+}
+
+

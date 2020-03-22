@@ -1,0 +1,18 @@
+.coll2{
+    flex: 50%;
+    background-color: steelblue;
+    color:  purple;
+    font-family: Arial;
+    align-items: center;
+    width: 100%;
+
+}
+p{
+    font-size: 50px;
+    color: black;
+}
+.content{
+    background-color: lightpink;
+    border-radius: 20px;
+    font-family: Arial;
+}

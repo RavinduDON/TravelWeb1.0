@@ -1,7 +1,5 @@
 function getdata() {
-    var name=document.getElementById("txtname").value;
-   alert("Mr "+name+" Your data successfully save");
-   document.getElementById("lblName").setAttribute("name",name);
+    document.getElementById("btnsubmit").addEventListener("click", function(){ alert("Your Data Submited Successfully.."); });
 }
 function canceldata() {
     document.getElementById("btncancel").addEventListener("click", function () {

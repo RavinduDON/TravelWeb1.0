@@ -11,21 +11,22 @@
 
 <div class="mainnav">
     <ul class="navprp">
-        <li class="subdiv"><a href="HomePage.html">Home Page</a></li>
+        <li class="subdiv"><a href="index.html">Home Page</a></li>
         <li class="subdiv"><a href="AboutUs.html">About Us</a></li>
         <li class="subdiv"><a href="PlanYourjourny.html">Plan Your Journey</a></li>
         <li class="subdiv"><a href="BeautyOfSL.html">Beauty Of Sri Lanka</a></li>
         <li class="subdiv"><a href="hotelbooking.html">Hotel Booking</a></li>
-        <li class="subdiv"><a href="">Contact Us</a></li>
+        <li class="subdiv"><a href="ContactUs.html">Contact Us</a></li>
     </ul>
 </div>
 <br>
 <hr>
 <h1>Welcome to Journey Planning Portal</h1>
+<div class="crow">
 <div class="dvform">
 <form action="">
     <lable>Name</lable>
-    <input type="text" class="input"><br><br>
+    <input type="text" class="input" id="txtname"><br><br>
     <lable>Address</lable>
     <input type="text" class="input"><br><br>
     <lable>Tel Number</lable>
@@ -74,13 +75,14 @@
     <lable>Total Price</lable>
     <input type="text" class="input">
     <br><br>
-    <button type="submit" class="btnsub" id="btnsubmit">Submit</button> &nbsp;&nbsp;
-    <button type="reset" class="btncan" id="btncancel">Cancel</button>
+    <button type="button" class="btnsub" id="btnsubmit" onclick="getdata()" >Submit</button> &nbsp;&nbsp;
+    <button type="reset" class="btncan" id="btncancel" onclick="canceldata()">Cancel</button>
 </form>
-    <script>
-        getdata()
-        canceldata()
-    </script>
+
+</div>
+<div class="col2">
+    <img src="The_Common_Wanderer_best_things_to_do_kandy-6.jpg" alt="" width="100%">
+</div>
 </div>
 </body>
 </html>
